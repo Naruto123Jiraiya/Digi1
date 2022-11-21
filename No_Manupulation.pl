@@ -74,3 +74,8 @@ for($i=$s;$i<=$e;$i++){
 	#print"\t";
 }
 print"\n";
+@arr=(2,4,7,3,1);
+$c=0;
+foreach $ele(@arr){
+$c=$c+$ele;
+print("$c\t");
